@@ -1,0 +1,22 @@
+{
+  "name": "simplest_chat",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djmclaugh/simplest_chat.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/djmclaugh/simplest_chat/issues"
+  },
+  "homepage": "https://github.com/djmclaugh/simplest_chat#readme",
+  "dependencies": {}
+}

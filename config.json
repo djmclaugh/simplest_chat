@@ -1,0 +1,4 @@
+{
+  "key": "tls/key.pem",
+  "cert": "tls/cert.pem"
+}
