@@ -1,10 +1,13 @@
-const config = require('./config.json');
 const fs = require('fs');
 const https = require('https');
 
+const certChainLocation = process.argv[2];
+const certKeyLocation = process.argv[3];
+const port = Number.parseInt(process.argv[4]);
+
 const serverOptions = {
-  key: fs.readFileSync(config.key),
-  cert: fs.readFileSync(config.cert),
+  key: fs.readFileSync(certKeyLocation),
+  cert: fs.readFileSync(certChainLocation),
   requestCert: true,
 }
 
@@ -26,6 +29,5 @@ const server = https.createServer(serverOptions, (req, res) => {
   })
 });
 
-const port = Number.parseInt(process.argv[2]);
 console.log("simplest chat listening on port " + port);
 server.listen(port);
