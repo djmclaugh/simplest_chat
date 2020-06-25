@@ -176,7 +176,7 @@ function getOrigin(req) {
     }
   } else {
     // If the server is not behind a proxy, it did the tls handshake itself and should have the
-    // certificate attached ot the socket.
+    // certificate attached to the socket.
     return req.socket.getPeerCertificate().subject.CN;
   }
 }
