@@ -1,6 +1,6 @@
 {
   "name": "simplest_chat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
     "url": "https://github.com/djmclaugh/simplest_chat/issues"
   },
   "homepage": "https://github.com/djmclaugh/simplest_chat#readme",
-  "dependencies": {}
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "node-forge": "^0.9.1"
+  }
 }
