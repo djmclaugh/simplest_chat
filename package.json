@@ -18,6 +18,6 @@
   "homepage": "https://github.com/djmclaugh/simplest_chat#readme",
   "dependencies": {
     "minimist": "^1.2.5",
-    "node-forge": "^0.9.1"
+    "node-forge": "^0.10.0"
   }
 }
